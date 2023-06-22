@@ -24,7 +24,8 @@ app.use('/uploads', express.static(__dirname + '/uploads'));
 app.use(
   cors({
     credentials: true,
-    origin: 'https://hoiday-booking.onrender.com/',
+    origin: '*',
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   })
 );
 
