@@ -79,7 +79,10 @@ export default function IndexPage({ extendedHeader, setExtendedHeader }) {
           <Link to={'/place/' + places._id} className='' key={places._id}>
             <img
               className='rounded-2xl mb-2 object-cover aspect-square'
-              src={'http://localhost:4000/uploads/' + places.photos?.[0]}
+              src={
+                'https://hoiday-booking.onrender.com/uploads/' +
+                places.photos?.[0]
+              }
               alt=''
             />
             <div className='pl-2'>

@@ -96,7 +96,7 @@ export default function Bookings({ extendedHeader, setExtendedHeader }) {
                     <img
                       className='md:w-64 md:h-64 w-32 h-32 object-cover'
                       src={
-                        'http://localhost:4000/uploads/' +
+                        'https://hoiday-booking.onrender.com/uploads/' +
                         booking.place.photos[0]
                       }
                       alt=''
@@ -201,7 +201,7 @@ export default function Bookings({ extendedHeader, setExtendedHeader }) {
                     <img
                       className='md:w-64 md:h-64 w-32 h-32 object-cover'
                       src={
-                        'http://localhost:4000/uploads/' +
+                        'https://hoiday-booking.onrender.com/uploads/' +
                         booking.place.photos[0]
                       }
                       alt=''

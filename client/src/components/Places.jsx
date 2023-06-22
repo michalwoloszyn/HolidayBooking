@@ -88,7 +88,10 @@ export default function Places({ extendedHeader, setExtendedHeader }) {
                   {place.photos.length > 0 && (
                     <img
                       className='md:w-64 md:h-64 w-32 h-32 object-cover'
-                      src={'http://localhost:4000/uploads/' + place.photos[0]}
+                      src={
+                        'https://hoiday-booking.onrender.com/uploads/' +
+                        place.photos[0]
+                      }
                       alt=''
                     />
                   )}
