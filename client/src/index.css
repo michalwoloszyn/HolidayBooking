@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-montserrat;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='number'],
+input[type='tel'],
+textarea {
+  @apply w-full border my-1 px-3 rounded-xl;
+}
+textarea {
+  min-height: 150px;
+}
+
+button {
+  @apply bg-gray-300;
+}
+button.primary {
+  background-color: #f5385d;
+  @apply bg-primary text-white  rounded-2xl;
+}
+input[type='number'].search,
+input[type='text'].search {
+  @apply rounded-lg p-1;
+}
+.rdrDefinedRangesWrapper {
+  @apply hidden;
+}
