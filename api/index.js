@@ -23,8 +23,8 @@ app.use('/uploads', express.static(__dirname + '/uploads'));
 
 app.use(
   cors({
-    credentials: false,
-    origin: '*',
+    credentials: true,
+    origin: true,
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   })
 );
