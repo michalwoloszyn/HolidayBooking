@@ -70,7 +70,7 @@ app.post('/login', async (req, res) => {
           //pick up from here {domain: ''} is not implemented but added to git
           res
             .cookie('token', token, {
-              domain: 'https://hoiday-booking.onrender.com/',
+              sameSite: none,
             })
             .json(userDoc);
         }
