@@ -67,7 +67,12 @@ app.post('/login', async (req, res) => {
         {},
         (err, token) => {
           if (err) throw err;
-          res.cookie('token', token, { domain: '' }).json(userDoc);
+          //pick up from here {domain: ''} is not implemented but added to git
+          res
+            .cookie('token', token, {
+              domain: 'https://hoiday-booking.onrender.com/',
+            })
+            .json(userDoc);
         }
       );
     } else {
