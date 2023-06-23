@@ -68,11 +68,7 @@ app.post('/login', async (req, res) => {
         (err, token) => {
           if (err) throw err;
           //pick up from here {domain: ''} is not implemented but added to git
-          res
-            .cookie('token', token, {
-              sameSite: none,
-            })
-            .json(userDoc);
+          res.cookie('token', token).json(userDoc);
         }
       );
     } else {
