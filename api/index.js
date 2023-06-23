@@ -69,7 +69,11 @@ app.post('/login', async (req, res) => {
           if (err) throw err;
 
           res
-            .cookie('token', token, { sameSite: 'none', secure: true })
+            .cookie('token', token, {
+              sameSite: 'none',
+              secure: true,
+              domain: 'https://hoiday-booking.onrender.com',
+            })
             .json(userDoc);
         }
       );
