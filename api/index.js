@@ -11,7 +11,6 @@ const cookieParser = require('cookie-parser');
 const imageDownloader = require('image-downloader');
 const multer = require('multer');
 const fs = require('fs');
-const { NONAME } = require('dns');
 //const { log } = require('console');
 require('dotenv').config();
 
@@ -29,7 +28,7 @@ app.use(
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   })
 );
-app.set('trust proxy', 1);
+
 mongoose.connect(process.env.MONGO_URL);
 
 app.get('/test', (req, res) => {
@@ -69,9 +68,7 @@ app.post('/login', async (req, res) => {
         (err, token) => {
           if (err) throw err;
 
-          res
-            .cookie('token', token, { sameSite: NONAME, secure: true })
-            .json(userDoc);
+          res.cookie('token', token).json(userDoc);
         }
       );
     } else {
