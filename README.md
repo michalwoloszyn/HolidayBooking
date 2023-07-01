@@ -17,7 +17,7 @@
 - Deleting photos
 - Edititng properties: Each property can be edited by the owner.
   
-- Displaying all lsitings
+- Displaying all listings
 - Displaying detailed specific listing
 - Photo gallery for a specific listing 
 
