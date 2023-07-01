@@ -3,17 +3,28 @@
 
 ## Description and all features
 
-- User Registration and Authentication: Users can create accounts or sign in using their email addresses, social media accounts, or other authentication methods to access personalized features and manage their bookings.
+- Registration
+- Login
+- Authentication
+- Logout
+- Displaying user info
+  
+- Advanced Search: Users can search for accommodations based on location, dates range, number of guests
+  
+- Add new property: Hosts can create detailed property listings, including property descriptions, amenities, images, pricing, availability calendar etc.
+- Uploading many photos at once or uploading photos by link
+- Choosing main photo
+- Deleting photos
+- Edititng properties: Each property can be edited by the owner.
+  
+- Displaying all lsitings
+- Displaying detailed specific listing
+- Photo gallery for a specific listing 
 
-- Advanced Search: Users can search for accommodations based on location, dates range, number of guests.
+  
+- Booking: Users can view available properties, check their availability in real-time, and make bookings directly through the app.
+- Bookings tab: Users can display all the bookings and their details for properties as a host or for properties that they booked.
 
-- Property Listings: Hosts can create detailed property listings, including property descriptions, amenities, images, pricing, availability calendar etc.
-
-- Booking Management: Users can view available properties, check their availability in real-time, and make bookings directly through the app.
-
-- Instant Booking and Request to Book: Depending on the host's preferences, users can instantly book available properties or send booking requests, which hosts can accept or decline.
-
-- User Profiles: Users and hosts can create profiles with personal information, profile pictures, and preferences. Hosts can showcase their properties and provide additional information about themselves and the local area.
 
 
 
