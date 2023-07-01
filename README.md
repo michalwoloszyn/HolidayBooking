@@ -1,7 +1,8 @@
 
 # AirBnb2.0 - holiday booking app
-
-## Description and all features
+## Description
+This project is full-stack holiday booking platform
+## All features
 
 - Registration
 - Login
