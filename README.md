@@ -99,6 +99,8 @@ To run this project, you will need to add the following environment variable to 
 ## Screenshots
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![home](https://github.com/michalwoloszyn/HolidayBooking/assets/78374996/d4c4da12-fa73-457b-9aa0-9415e4d6ac48)
+
 
 ## Thank you for viewing my project. 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://michalwoloszyn.com/)
