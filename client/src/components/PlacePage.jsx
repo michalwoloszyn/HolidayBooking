@@ -129,7 +129,7 @@ export default function PlacePage({ extendedHeader, setExtendedHeader }) {
                   <img
                     className='object-cover aspect-square'
                     alt=''
-                    src={'https://hoiday-booking.onrender.com/uploads/' + photo}
+                    src={'http://localhost:4000/uploads/' + photo}
                   />
                 </div>
               ))}
@@ -177,10 +177,7 @@ export default function PlacePage({ extendedHeader, setExtendedHeader }) {
               <div className=''>
                 <img
                   className='object-cover aspect-square'
-                  src={
-                    'https://hoiday-booking.onrender.com/uploads/' +
-                    place.photos[0]
-                  }
+                  src={'http://localhost:4000/uploads/' + place.photos[0]}
                   alt=''
                 />
               </div>
@@ -190,20 +187,14 @@ export default function PlacePage({ extendedHeader, setExtendedHeader }) {
             {place.photos?.[1] && (
               <img
                 className='object-cover aspect-square'
-                src={
-                  'https://hoiday-booking.onrender.com/uploads/' +
-                  place.photos[1]
-                }
+                src={'http://localhost:4000/uploads/' + place.photos[1]}
                 alt=''
               />
             )}
             {place.photos?.[2] && (
               <img
                 className='object-cover aspect-square relative top-2'
-                src={
-                  'https://hoiday-booking.onrender.com/uploads/' +
-                  place.photos[2]
-                }
+                src={'http://localhost:4000/uploads/' + place.photos[2]}
                 alt=''
               />
             )}

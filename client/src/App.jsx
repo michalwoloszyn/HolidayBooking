@@ -12,7 +12,7 @@ import PlacePage from './components/PlacePage';
 import axios from 'axios';
 import { UserContextProvider } from './UserContext';
 import { useState } from 'react';
-axios.defaults.baseURL = 'https://hoiday-booking.onrender.com';
+axios.defaults.baseURL = 'http://localhost:4000';
 axios.defaults.withCredentials = true;
 
 function App() {

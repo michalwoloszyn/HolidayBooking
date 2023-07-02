@@ -89,14 +89,14 @@ export default function Bookings({ extendedHeader, setExtendedHeader }) {
             hostBookings.map((booking) => (
               <div
                 key={booking.place._id}
-                className='cursor-pointer border shadow-xl flex rounded-2xl p-4 w-full md:w-9/12 lg:w-8/12 2xl:w-7/12 relative'
+                className=' border shadow-xl flex rounded-2xl p-4 w-full md:w-9/12 lg:w-8/12 2xl:w-7/12 relative'
               >
                 <div className='shrink-0'>
                   {booking.place.photos.length > 0 && (
                     <img
                       className='md:w-64 md:h-64 w-32 h-32 object-cover'
                       src={
-                        'https://hoiday-booking.onrender.com/uploads/' +
+                        'http://localhost:4000/uploads/' +
                         booking.place.photos[0]
                       }
                       alt=''
@@ -194,14 +194,14 @@ export default function Bookings({ extendedHeader, setExtendedHeader }) {
             userBookings.map((booking) => (
               <div
                 key={booking.place._id}
-                className='cursor-pointer border shadow-xl flex rounded-2xl p-4 w-full md:w-9/12 lg:w-8/12 2xl:w-7/12 relative'
+                className=' border shadow-xl flex rounded-2xl p-4 w-full md:w-9/12 lg:w-8/12 2xl:w-7/12 relative'
               >
                 <div className='shrink-0'>
                   {booking.place.photos.length > 0 && (
                     <img
                       className='md:w-64 md:h-64 w-32 h-32 object-cover'
                       src={
-                        'https://hoiday-booking.onrender.com/uploads/' +
+                        'http://localhost:4000/uploads/' +
                         booking.place.photos[0]
                       }
                       alt=''

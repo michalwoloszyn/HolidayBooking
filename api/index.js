@@ -13,7 +13,7 @@ const multer = require('multer');
 const fs = require('fs');
 //const { log } = require('console');
 require('dotenv').config();
-
+const PORT = process.env.PORT || 4000;
 const bcryptsalt = bcrypt.genSaltSync(10);
 const jwtSecret = '1231248dgdsgjbks23bbn23';
 
@@ -68,13 +68,7 @@ app.post('/login', async (req, res) => {
         (err, token) => {
           if (err) throw err;
 
-          res
-            .cookie('token', token, {
-              sameSite: 'none',
-              secure: true,
-              domain: 'https://hoiday-booking.onrender.com',
-            })
-            .json(userDoc);
+          res.cookie('token', token).json(userDoc);
         }
       );
     } else {
@@ -348,4 +342,4 @@ app.get('/bookings-user', (req, res) => {
   });
 });
 
-app.listen(4000, '0.0.0.0');
+app.listen(PORT, '0.0.0.0');

@@ -21,13 +21,13 @@ export default function Login({ extendedHeader, setExtendedHeader }) {
     }
   }
 
-  // if (redirect) {
-  //   setTimeout(() => {
-  //     window.location.reload();
-  //   }, '10');
+  if (redirect) {
+    setTimeout(() => {
+      window.location.reload();
+    }, '10');
 
-  //   return <Navigate to={'/'} />;
-  // }
+    return <Navigate to={'/'} />;
+  }
 
   return (
     <div
