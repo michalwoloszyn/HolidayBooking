@@ -35,7 +35,7 @@
 
 ## Lessons Learned
 
-Besides the above mentioned technologies I've used bcrypt for password hashing, jsonwebtoken for authentication, mongoose for database schema, and axios to perform CRUD operations. I also had an opportunity to learn how unpredicatble deployment process may be. Initially I wanted to upload everything using the same hosting as my portfolio website www.michalwoloszyn.com however it turned out the hosting provider doesn't support node and I was forced to find some alternatives. After trying a few platforms railway.com, seemed to be the best option for live demo back end hosting. I also had to refactor a lot of parts in the code to make it run not only locally but also on the server.
+Besides the above mentioned technologies I've used bcrypt for password hashing, jsonwebtoken for authentication, mongoose for database schema, and axios to perform CRUD operations. I also had an opportunity to learn how unpredicatble deployment process may be. Initially I wanted to upload everything using the same hosting as my portfolio website www.michalwoloszyn.com however it turned out the hosting provider doesn't support node and I was forced to find some alternatives. After trying a few platforms railway.com, seemed to be the best option for live demo back end hosting. I also had to refactor a lot of parts in the code to make it run not only locally but also on the server. (CURRENTLY NOT LIVE DUE TO ONGOING COSTS ASSOCIATED WITH HOSTING)
 
 ## Demo
 
@@ -137,6 +137,6 @@ To run this project, you will need to add the following environment variable to 
 
 
 ## Thank you for viewing my project. 
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://michalwoloszyn.com/)
+
 
 
